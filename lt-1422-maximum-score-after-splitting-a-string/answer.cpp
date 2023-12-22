@@ -1,6 +1,12 @@
-class Solution {
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class Solution
+{
 public:
-    int maxScore(string s) {
+    int maxScore(string s)
+    {
         /*
         METHOD 1: My Method with 7 ms submission time and 14.73% beats.
         Time complexity: O(n^2)
@@ -23,14 +29,14 @@ public:
         Space complexity: O(1)
         */
 
-
         int zeros = 0, ones = 0;
         int maxScore = 0;
         ones = count(s.begin(), s.end(), '1');
-        for (int i = 0; i < s.size() - 1; i++) {
+        for (int i = 0; i < s.size() - 1; i++)
+        {
             zeros += s[i] == '0' ? 1 : 0;
             ones -= s[i] == '1' ? 1 : 0;
-            maxScore = max(maxScore, zeros+ones);
+            maxScore = max(maxScore, zeros + ones);
         }
 
         return maxScore;
