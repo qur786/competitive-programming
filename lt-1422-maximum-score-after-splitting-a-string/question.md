@@ -4,7 +4,7 @@ Given a string s of zeros and ones, return the maximum score after splitting the
 
 The score after splitting a string is the number of zeros in the left substring plus the number of ones in the right substring.
 
-Example 1:
+**Example 1:**
 
 Input: s = "011101"
 Output: 5
@@ -16,18 +16,18 @@ left = "011" and right = "101", score = 1 + 2 = 3
 left = "0111" and right = "01", score = 1 + 1 = 2
 left = "01110" and right = "1", score = 2 + 1 = 3
 
-Example 2:
+**Example 2:**
 
 Input: s = "00111"
 Output: 5
 Explanation: When left = "00" and right = "111", we get the maximum score = 2 + 3 = 5
 
-Example 3:
+**Example 3:**
 
 Input: s = "1111"
 Output: 3
 
-Constraints:
+**Constraints:**
 
 2 <= s.length <= 500
 The string s consists of characters '0' and '1' only.
