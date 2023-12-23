@@ -1,4 +1,4 @@
-1496. Path Crossing
+## 1496. Path Crossing
 
 Given a string path, where path[i] = 'N', 'S', 'E' or 'W', each representing moving one unit north, south, east, or west, respectively. You start at the origin (0, 0) on a 2D plane and walk on the path specified by path.
 
@@ -6,7 +6,7 @@ Return true if the path crosses itself at any point, that is, if at any time you
 
 **Example 1:**
 
-![Examle 1 image](./example-1.png)
+![Examle 1 image](https://github.com/qur786/competitive-programming/blob/main/leet-code/lt-1496-path-crossings/example-1.png)
 
 Input: path = "NES"
 Output: false
@@ -14,7 +14,7 @@ Explanation: Notice that the path doesn't cross any point more than once.
 
 **Example 2:**
 
-![Examle 2 image](./example-2.png)
+![Examle 2 image](https://github.com/qur786/competitive-programming/blob/main/leet-code/lt-1496-path-crossings/example-2.png)
 
 Input: path = "NESWW"
 Output: true
