@@ -8,17 +8,17 @@ Return true if the path crosses itself at any point, that is, if at any time you
 
 ![Examle 1 image](https://github.com/qur786/competitive-programming/blob/main/leet-code/lt-1496-path-crossings/example-1.png)
 
-Input: path = "NES"
-Output: false
-Explanation: Notice that the path doesn't cross any point more than once.
+- Input: path = "NES"
+- Output: false
+- Explanation: Notice that the path doesn't cross any point more than once.
 
 **Example 2:**
 
 ![Examle 2 image](https://github.com/qur786/competitive-programming/blob/main/leet-code/lt-1496-path-crossings/example-2.png)
 
-Input: path = "NESWW"
-Output: true
-Explanation: Notice that the path visits the origin twice.
+- Input: path = "NESWW"
+- Output: true
+- Explanation: Notice that the path visits the origin twice.
 
 **Constraints:**
 
