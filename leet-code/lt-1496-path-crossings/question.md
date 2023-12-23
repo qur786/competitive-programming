@@ -22,5 +22,5 @@ Return true if the path crosses itself at any point, that is, if at any time you
 
 **Constraints:**
 
-- 1 <= path.length <= 104
+- 1 <= path.length <= 10<sup>4</sup>
 - path[i] is either 'N', 'S', 'E', or 'W'.
