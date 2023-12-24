@@ -8,18 +8,18 @@ All occurrences of a character must be replaced with another character while pre
 
 **Example 1:**
 
-Input: s = "egg", t = "add"
-Output: true
+- Input: s = "egg", t = "add"
+- Output: true
 
 **Example 2:**
 
-Input: s = "foo", t = "bar"
-Output: false
+- Input: s = "foo", t = "bar"
+- Output: false
 
 **Example 3:**
 
-Input: s = "paper", t = "title"
-Output: true
+- Input: s = "paper", t = "title"
+- Output: true
 
 **Constraints:**
 
