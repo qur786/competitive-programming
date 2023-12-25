@@ -26,7 +26,7 @@ public:
 
         /**
          * You can optimize the algorithm for finding the majority element using
-         * a method called Boyer-Moore Voting Algorithm. This algorithm identifie
+         * a method called Boyer-Moore Voting Algorithm. This algorithm identifies
          * the majority element in a single pass through the array without using extra space.
          *
          * Time complexity: O(n)
