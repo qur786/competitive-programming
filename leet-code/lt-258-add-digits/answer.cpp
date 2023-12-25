@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * Time complexity: O(n)
+ * Time complexity: O(1)
  * Space complexity: O(1)
  */
 
@@ -14,6 +14,8 @@ public:
     {
         /*
         METHOD 1:
+         * Time complexity: O(log(number of digits of num) * log(value of temp))
+         * Space complexity: O(1)
 
         while (num > 9) {
             int temp = num;
