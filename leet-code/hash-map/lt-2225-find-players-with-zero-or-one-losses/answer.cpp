@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * Time complexity: O(n)
+ * Time complexity: O(nlogn)
  * Space complexity: O(n)
  */
 
