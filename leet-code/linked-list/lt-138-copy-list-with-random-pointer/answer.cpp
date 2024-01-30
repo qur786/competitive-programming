@@ -88,11 +88,10 @@ public:
             Node *random_node = nullptr;
             if (random == nullptr)
             {
-                new_curr_ptr->random =
-                    random_node; // If random pointer of the current pointer
-                                 // from original list points to null, then
-                                 // assign null pointer to the random pointer of
-                                 // corresponding node in the new list
+                random_node = nullptr; // If random pointer of the current pointer
+                                       // from original list points to null, then
+                                       // assign null pointer to the random pointer of
+                                       // corresponding node in the new list
             }
             else
             {
